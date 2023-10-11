@@ -1,0 +1,44 @@
+@import "./base.css";
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+body {
+  display: flex;
+  place-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table td,
+table th {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--vt-c-white-mute);
+  cursor: pointer;
+}
